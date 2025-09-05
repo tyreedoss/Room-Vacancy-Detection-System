@@ -15,10 +15,14 @@ This project uses an ESP32C3 board and a photoresistor light sensor module to de
 * 3V3 pin of ESP32 to VCC of photoresistor
 * Plug USB-C from outlet or computer into ESP32
 
+<img src="images/usbC.jpg" width="480">
+
 ## Wiring (Using Lithium Battery as Voltage Source)
 * Wire the photoresistor and ESP32 the same as above
 * Connect cathode of diode to 5V pin of ESP32 and connect anode to battery (*NOTE: It is not recommended to use an LED since it is not designed for power routing. I only used one here since it was all I had access to at the time*)
 * Ground the battery with GND pin of ESP32
+
+<img src="images/battery.jpg" width = "480">
 
 ## Software Setup
 1. Install Arduino
@@ -38,6 +42,8 @@ This project uses an ESP32C3 board and a photoresistor light sensor module to de
 3. Turn the lights off in the room and make sure the D0 LED is now off. Fine-tune as needed
 4. Open "bathroom.local" (or whatever you named the host) on a device that is connected to the same network, and view the room status. Refresh to update status
 
+<img src="images/occupied.jpg" width = "480">
 
+<img src="images/vacant.jpg" width = "480">
 
 
