@@ -42,8 +42,8 @@ This project uses an ESP32C3 board and a photoresistor light sensor module to de
 3. Turn the lights off in the room and make sure the D0 LED is now off. Fine-tune as needed
 4. Open "bathroom.local" (or whatever you named the host) on a device that is connected to the same network, and view the room status. Refresh to update status
 
-<img src="images/occupied.jpg" width = "480">
+<img src="images/occupied.PNG" width = "480">
 
-<img src="images/vacant.jpg" width = "480">
+<img src="images/vacant.PNG" width = "480">
 
 
